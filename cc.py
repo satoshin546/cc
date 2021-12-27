@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Coded by L330n123
+
 #########################################
 
 #########################################
@@ -12,27 +12,6 @@ import threading
 import sys
 import ssl
 import datetime
-
-
-
-print ('''
-	   /////    /////    /////////////
-	  CCCCC/   CCCCC/   | CC-attack |/
-	 CC/      CC/       |-----------|/ 
-	 CC/      CC/       |  Layer 7  |/ 
-	 CC/////  CC/////   | ddos tool |/ 
-	  CCCCC/   CCCCC/   |___________|/
->--------------------------------------------->
-Version 3.6 (2020/12/19)
-┌─────────────────────────────────────────────┐
-│        Tos: Don't attack .gov website       │
-├─────────────────────────────────────────────┤
-│                 New stuff:                  │
-│          [+] Optimization                   │
-│          [+] Changed Output                 │
-│          [+] Added Url Parser               │
-├─────────────────────────────────────────────┤
-└─────────────────────────────────────────────┘''')
 
 acceptall = [
 		"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\n",
